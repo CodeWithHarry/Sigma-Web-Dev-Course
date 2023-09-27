@@ -27,3 +27,5 @@ If you've been itching to dive into the world of web development but feel lost i
 We're committed to your growth. Expect fresh source code additions nearly every day. Keep up the pace with our schedule and watch your skills soar! 📅
 
 Get ready to embark on an exciting coding journey! 👨‍💻🌟
+
+Ready to start? [Click here](https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w) to access the complete YouTube playlist.
