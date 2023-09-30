@@ -1,6 +1,5 @@
 # Sigma-Web-Dev-Course
 
-
 ## Introduction
 
 Welcome to Sigma's Web Development Course - Hindi Web Development Tutorials! 🚀 This repository contains the source code for Sigma's Web Development Course, exclusively in Hindi. Whether you're a beginner, or intermediate developer, or prefer learning in Hindi, this course is designed to help you become a proficient web developer step by step.
@@ -15,19 +14,22 @@ This course is a perfect fit for:
   
 - **Hindi Learners:** Individuals who prefer learning in Hindi will find this course accessible and comprehensive.
 
-## Course Content
+## Course Highlights
 
-Throughout this course, you'll delve into a wide range of topics, including:
+Here's what you can expect from our comprehensive web development course:
 
-1. **HTML, CSS, and JavaScript:** Build a strong foundation in these fundamental web development technologies.
+- **Job-Ready:** Our course is meticulously designed to equip you with the skills needed for job opportunities in the web development industry. You'll graduate as a job-ready developer.
 
-2. **Front-end and Back-end Development:** Learn both sides of web development to become a versatile developer.
+- **From Zero to Master Level:** Whether you're starting from scratch or aiming to master your web development skills, our course covers it all. We take you from beginner to expert.
 
-3. **Database Integration:** Discover how to integrate databases into your web applications seamlessly.
+- **Programming Languages and Technologies Covered:**
+  - **Front-end Development:** HTML, CSS, JavaScript, Bootstrap, ReactJS, AngularJS
+  - **Back-end Development:** Node.js
+  - **Database Integration:** SQL and NoSQL databases
+  - **Version Control:** Git/ GitHub
+  - **Deployment:** Hosting platforms
 
-4. **Real-world Projects:** Apply your skills to real-world projects and gain practical experience.
-
-5. **And Much More:** Our course offers a holistic approach to web development, ensuring you're well-prepared for your journey as a developer.
+- **Practical Projects:** Apply your skills to real-world projects, giving you hands-on experience and a strong portfolio to showcase your abilities.
 
 ## Course Schedule
 
