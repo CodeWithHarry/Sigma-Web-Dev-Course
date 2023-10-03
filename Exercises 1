@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 1 solution</title>
+</head>
+<body bgcolor="cyan">
+    <h1><u>CWH sigma course form</u></h1>
+    <h2>Using headings</h2>
+    <h4>Enter your name:</h4>
+    <input type="text" name="name" id="name" placeholder="Name">
+    <h4>Enter your email:</h4>
+    <input type="text" name="email" id="email" placeholder="Email">
+    <h4>Enter your address:</h4>
+    <textarea name="address" id="address" cols="30" rows="4"></textarea>
+    <h4>Enter your password:</h4>
+    <input type="password" name="password" id="password" placeholder="Password">
+    <h4>Enter your language:</h4>
+    <input type="radio" name="HTML" id="HTML">
+    <label for="HTML">HTML</label>
+    <H6></H6>
+    <input type="radio" name="CSS" id="CSS">
+    <label for="CSS">CSS</label>
+    <H6></H6>
+    <input type="radio" name="javascript" id="javascript">
+    <label for="javascript">javascript</label>
+    <h4>Submit or reset:</h4>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+
+    <div></div>
+
+    <h2>Using div</h2>
+    <div>
+    <label for="name">Enter your name</label>
+    <input type="text" name="name" id="name" placeholder="Name">
+    </div>
+    <div>
+        <label for="email">Enter your email</label>
+        <input type="text" name="email" id="email" placeholder="Email">
+    </div>
+    <div>
+        <label for="password">Enter your password</label>
+        <input type="password" name="password" id="password" placeholder="Password">
+    </div>
+    <div>
+        <label for="address">Enter your address</label>
+    </div>
+        <div>
+            <textarea name="address" id="address" cols="30" rows="4"></textarea>
+        </div>
+    <div>
+        <h4>Enter your language:</h4>
+    <input type="radio" name="HTML" id="HTML">
+    <label for="HTML">HTML</label>
+    </div>
+    <div>
+    <input type="radio" name="CSS" id="CSS">
+    <label for="CSS">CSS</label>
+    </div>
+    <div>
+    <input type="radio" name="javascript" id="javascript">
+    <label for="javascript">javascript</label>
+    </div>
+    <div>
+        <p></p>
+    </div>
+    <div>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </div>
+
+</body>
+</html>
