@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sigma Web</title>
+  <style>
+    html {
+  height: 100%;
+  width: 100%;
+}
+.vertical-menu {
+  width: 300px; /* Set a width if you like*/
+}
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #1319c9; /* Add a green color to the "active/current" link */
+  color: white;
+}
+  </style>
+</head>
+
+<body>
+  <div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#tailwind">Tailwind CSS</a>
+  <a href="#sigma">Sigma Web</a>
+  <a href="#python">Python</a>
+  <a href="#audio">Audio</a>
+</div>
+<br><br>
+<div>
+  <h1 id="#tailwind">Taillwind CSS Video Tutorial</h1>
+ <iframe width="350" height="220" src="https://www.youtube.com/embed/L4_jarMnB0c?si=wJC5rwjq9hibXLWO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="350" height="220" src="https://www.youtube.com/embed/p0Q8SQSCoZg?si=xMX-IhAbynk4WlfT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="350" height="220" src="https://www.youtube.com/embed/aUunolbb1xU?si=duBK0sP43AYm0TAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div>
+  <h1 id="#sigma">Sigma Web Development</h1>
+   <iframe width="350" height="220" src="https://www.youtube.com/embed/tVzUXW6siu0?si=B2VGjkYwla1pj-8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="350" height="220" src="https://www.youtube.com/embed/kJEsTjH5mVg?si=mfEiNZ19wDqfuzFe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="350" height="220" src="https://www.youtube.com/embed/BGeDBfCIqas?si=7i0QKWwcpjsyP9kN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div>
+  <h1 id="python">Python Course</h1>
+  <iframe width="350" height="220" src="https://www.youtube.com/embed/gfDE2a7MKjA?si=_K-8moAi2zweh2sq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="350" height="220" src="https://www.youtube.com/embed/ihk_Xglr164?si=xyNIk0qck5SGdeli" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+  <div>
+    <h1 id="audio">Audio</h1>
+    <audio src="https://cdn.pixabay.com/audio/2022/07/11/audio_532e21f350.mp3" controls autoplay></audio>
+  </div>
+  </body>
+
+</html>
