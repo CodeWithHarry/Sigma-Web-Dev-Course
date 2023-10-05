@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videopedia</title>
+</head>
+<body>
+    
+    <h1>Welcome to Videopedia</h1>
+    <h2>Coding:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uV13Myyoee0?si=NMeQ1LEkIcTPVmPm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1afG3puL8Yw?si=hhq4REoJKMtlKTj1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tVzUXW6siu0?si=uNCXKgsa4VlchY4i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3>Click here for more coding videos</h3>
+    <a href="https://www.youtube.com/hashtag/coding" target="_blank">Click here</a></a>
+    <br><br>
+
+    <h2>Gaming:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/s04iEvc7jPA?si=XXt9hlKi4HQxe9rS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FzM1cYbL0GU?si=6OzR1v1czgMciuAG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lJrHLnhJl-M?si=LtNif56HsiLoaF8y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3>Click here for more gaming videos</h3>
+    <a href="https://www.youtube.com/gaming" target="_blank">Click here</a>
+    <br><br>
+
+    <h2>Music:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VAdGW7QDJiU?si=M-PdAQwRgbVp_9c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/73nW1HVQnQY?si=8KxqPrhMPO-1ST2v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fPO76Jlnz6c?si=lie0AWsLEJ8_S98p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3>Click here for more music videos:</h3>
+    <a href="https://www.youtube.com/music" target="_blank">Click here</a></a>
+    <br><br>
+
+    <h2>Sports:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OFbyNU6UQQs?si=rr1bnmX1QGus0kDO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JhIBqykjzbs?si=wgB0qERsLlAghWxX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IzGOk2XYsbk?si=vnvovwZ8RbbSA61N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3>Click here for more sports videos</h3>
+    <a href="https://www.youtube.com/sports" target="_blank">Click here</a>
+    <br><br>
+    <h3>Courtesy: https://www.youtube.com</h3>
+    <H2>Thanks for visiting!</H2>
+</body>
+</html>
