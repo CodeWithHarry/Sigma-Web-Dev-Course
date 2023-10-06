@@ -1,0 +1,12 @@
+#box{
+    border: 1px solid red;
+}
+
+#vid {
+    position: float;
+    margin-top: 100px;
+    height: 480px;
+    width: 854px;
+    border: 3px solid #ECECEC;
+    box-sizing: border-box;
+    }
