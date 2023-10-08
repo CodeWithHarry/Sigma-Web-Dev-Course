@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sigma Web Development - Exercise</title>
+  <meta name="description" content="This is exercise 01, for sigma web development batch">
+</head>
+<body>
+  <h1>Welcome to Sigma Web Development</h1>
+  <h2>Exercise 01 - Pure HTML Media Player</h2>
+
+  <h2>AUDIO PREVIEW</h2>
+  <h3>Audio 01</h3>
+  <audio controls>
+    <source src="./01.mp3" type="audio/mpeg">
+  </audio>
+  <h3>Audio 02</h3>
+  <audio controls>
+    <source src="./01.mp3" type="audio/mpeg">
+  </audio>
+  <h3>Audio 03</h3>
+  <audio controls>
+    <source src="./01.mp3" type="audio/mpeg">
+  </audio>
+  <h3>Audio 04</h3>
+  <audio controls>
+    <source src="./01.mp3" type="audio/mpeg">
+  </audio>
+  <h3>Audio 05</h3>
+  <audio controls>
+    <source src="./01.mp3" type="audio/mpeg">
+  </audio>
+  <h3>Audio 06</h3>
+  <audio controls>
+    <source src="./01.mp3" type="audio/mpeg">
+  </audio>
+
+  <h2>VIDEO PREVIEW</h2>
+  <h3>Video 01</h3>
+  <video width="400" controls>
+    <source src="./01.mp4" type="video/mp4">
+  </video>
+  <h3>Video 02</h3>
+  <video width="400" controls>
+    <source src="./01.mp4" type="video/mp4">
+  </video>
+  <h3>Video 03</h3>
+  <video width="400" controls>
+    <source src="./01.mp4" type="video/mp4">
+  </video>
+  <h3>Video 04</h3>
+  <video width="400" controls>
+    <source src="./01.mp4" type="video/mp4">
+  </video>
+  <h3>Video 05</h3>
+  <video width="400" controls>
+    <source src="./01.mp4" type="video/mp4">
+  </video>
+  <h3>Video 06</h3>
+  <video width="400" controls>
+    <source src="./01.mp4" type="video/mp4">
+  </video>
+</body>
+</html>
