@@ -1,0 +1,7 @@
+{
+    "livePreview.portNumber": 3000,
+    "livePreview.hostIP": "192.168.1.199",
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.host": "192.168.1.199",
+    "livePreview.defaultPreviewPath": "/index.html"
+}
