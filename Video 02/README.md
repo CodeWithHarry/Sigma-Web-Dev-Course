@@ -79,4 +79,4 @@ whereas `script.js` is a Javascript file
 > [!NOTE]  
 > You can learn CSS & Javascript later in the course, this is just for basic knowledgebase.
 
-## [Checkout Video 3 Source code and notes](https://github.com/oyepriyansh/Sigma-Web-Dev-Course/tree/main/Video%2003)
+## [Checkout Video 3 Source code and notes](https://github.com/CodeWithHarry/Sigma-Web-Dev-Course/tree/main/Video%2003)

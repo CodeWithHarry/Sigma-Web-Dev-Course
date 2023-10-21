@@ -18,4 +18,4 @@
 - `<body> </body>` contains all elements which are shown in webpage
 - `title>title of the page</title>` shows title of the page
 
-## [Checkout Video 4 Source code and notes](https://github.com/oyepriyansh/Sigma-Web-Dev-Course/tree/main/Video%2004)
+## [Checkout Video 4 Source code and notes](https://github.com/CodeWithHarry/Sigma-Web-Dev-Course/tree/main/Video%2004)
