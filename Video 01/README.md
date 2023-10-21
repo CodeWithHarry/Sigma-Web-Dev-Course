@@ -63,4 +63,4 @@ Or you can include audio on your page using:
 ```
 <hr>
 
-## [Checkout Video 2 Source code and notes](https://github.com/CodeWithHarry/Sigma-Web-Dev-Course/tree/main/Video%202)
+## [Checkout Video 2 Source code and notes](https://github.com/CodeWithHarry/Sigma-Web-Dev-Course/tree/main/Video%2002)
