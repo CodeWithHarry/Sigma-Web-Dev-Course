@@ -9,34 +9,36 @@
 
 <body>
     <h1>Form to apply for Sigma Web Development course - TA</h1>
+    <form action="/submit.php" method="post">
 
-    <div>
-        <form action="/submit.php" method="post">
+        <div>
             <label for="username">Enter Your Username</label>
             <input type="text" name="username" id="username" placeholder="Enter your username">
-        </form>
-    </div>
-    <div>
-        <input type="radio" id="boy" name="gender" value="boy">
-        <label for="boy">Boy</label>
-        <input type="radio" id="girl" name="gender" value="girl">
-        <label for="girl">Girl</label>
-    </div>
-    <div>
-        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-        <label for="subscribe">Subscribe to newsletter</label>
-    </div>
-    <div>
-        <form action="comment">Enter your comment</form>
-        <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
-    </div>
-    <div>
-        <select name="fruits">
-            <option value="apple">Apple</option>
-            <option value="banana">Banana</option>
-            <option value="cherry">Cherry</option>
-        </select>
-    </div>
+        </div>
+        <div>
+            <input type="radio" id="boy" name="gender" value="boy">
+            <label for="boy">Boy</label>
+            <input type="radio" id="girl" name="gender" value="girl">
+            <label for="girl">Girl</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+        <div>
+            <form action="comment">Enter your comment</form>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+
+        <div>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+            </select>
+        </div>
+    </form>
 </body>
 
 </html>
