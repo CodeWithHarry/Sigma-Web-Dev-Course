@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        /* The specificity of this selector is 1 */
+        h1 {
+            color: aqua;
+        }
+
+        /* The specificity of this selector is 1 + 10 = 11 */
+        h1.yellow {
+            color: yellow;
+        }
+
+        /* The specificity of this selector is highest due to !important*/
+        /* .cred {
+            color: magenta !important;
+        } */
+
+        /* The specificity of this selector is 10 */
+        .cpurple {
+            color: purple;
+        }
+
+        /* This is an exampls of attribute selector */
+        /* The specificity of this selector is 10 */
+
+        [data-x=a] {
+            color: maroon;
+        }
+
+        /* The specificity of this selector is 1 (element) + 20 (classes) + 10 (attribute) + 10 (pseudo-class) = 41 */
+        a.harryclass.rohan-class[herf]:hover {
+            color: blueviolet;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
+    </div>
+    <a class="harryclass rohan-class" data="herf" href="https://googlte.com">Google</a>
+</body>
+
+</html>
