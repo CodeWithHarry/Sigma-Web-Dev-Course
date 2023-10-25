@@ -1,18 +1,17 @@
+# Video 2: Your First HTML Website
 
+In the second video of our web development course, we dive into creating your very first HTML website. This video is packed with essential information to kickstart your journey in web development. Here's what we covered:
 
-## Lecture Notes - Introduction to Web Development Files (Video 2)**
+**1. Introduction**
+   - We begin with a warm welcome to the world of web development. You're about to embark on an exciting journey, and this video sets the stage for what's to come.
 
-**HTML File (index.html):**
-- **DOCTYPE Declaration:** The document starts with a standard HTML5 declaration.
-- **HTML Structure:** The HTML structure includes `<html>`, `<head>`, and `<body>` tags.
-- **Character Encoding:** A `meta` tag specifies the character encoding as UTF-8.
-- **Title:** The `<title>` tag defines the title of the web page as "Sigma Web Development Course."
-- **Content:** Inside the `<body>` tag, basic content is added, introducing the website as "my first website" and mentioning the "Sigma Harry bhai ka course."
+**2. Useful VS Code Extensions**
+   - We explore the power of Visual Studio Code, your trusty code editor. Learn about valuable extensions that will enhance your development experience, making coding more efficient and enjoyable.
 
-**JavaScript File (script.js):**
-- **Alert:** In the JavaScript file, an `alert()` function is used to display a pop-up message that says "Welcome to Sigma Web Development Course."
+**3. Linking CSS**
+   - You'll discover how to link Cascading Style Sheets (CSS) to your HTML document. We'll make your web page visually appealing by setting the background color and text color.
 
-**CSS File (style.css):**
-- **Styling:** In the CSS file, the background color of the `body` element is set to red, and the text color is set to white.
+**4. Linking JavaScript**
+   - JavaScript brings interactivity to your website. We show you how to link an external JavaScript file to your HTML and introduce you to a simple "alert" to interact with the user.
 
-This video introduces the structure and content of the HTML file, the use of JavaScript to create an alert, and basic styling through CSS. It's the foundation for web development and will be expanded upon in subsequent lectures.
+By the end of this video, you've created your first webpage.With the foundation laid in this video, you're well on your way to creating captivating and interactive web content. Stay tuned for more exciting lessons in the Sigma Web Development Course! 🚀🌐🖥️
