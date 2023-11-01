@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boxmodel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            background-color: aqua;
+        }
+
+        .box1 {
+            color: yellow;
+            padding: 10px;
+            margin: 35px;
+            border: 2px solid blue;
+            height: 200px;
+            /* Considers height of Content only */
+            box-sizing: border-box;
+            /* Considers height of content + border + padding (excluding margins) */
+        }
+
+        .box2 {
+            color: red;
+            padding: 10px;
+            margin: 25px;
+            border: 2px solid black;
+            height: 200px;
+            box-sizing: border-box;
+        }
+
+        /* Agar 2 margins collapse ho rahi hoon toh zada wali margin lag jayagi */
+    </style>
+</head>
+
+<body>
+    <div class="box box1">I am a box</div>
+    <div class="box box2">I am another box</div>
+    <h1>Concept of margin collapse</h1>
+    <img width="800" src="margin collapse.png" alt="margin collapse">
+</body>
+
+</html>
