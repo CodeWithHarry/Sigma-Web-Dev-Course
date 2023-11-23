@@ -45,7 +45,7 @@ if(a>b){
     let c = a - b;
 }
 else {
-    let c = a - b;
+    let c = b - a;
 }
 
 */
