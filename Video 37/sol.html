@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+    </style>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f5f5f7;
+        }
+
+        header {
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+
+        nav {
+            background-color: gainsboro;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul li {
+            list-style: none;
+            color: black;
+            padding: 15px 20px;
+            font-size: large;
+            font-family: 'Poppins', Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        ul li:hover {
+            background-color: #f5f5f7;
+        }
+
+        ul li:first-child {
+            display: flex;
+            padding: 0 2px;
+            font-size: 30px;
+            font-family: cursive;
+        }
+
+        .navlogo {
+            display: flex;
+        }
+
+        .navlogo img {
+            display: block;
+            height: 57px;
+            margin: auto 0;
+        }
+
+        .navlogo span {
+            display: block;
+            margin: auto 2px;
+        }
+    </style>
+    <style>
+        .content {
+            display: flex;
+            height: 87vh;
+            margin: 20px 35px;
+            background-color: #b4b4be;
+        }
+
+        .card {
+            width: 50vw;
+            margin: 35px 45px;
+            background-color: rgb(228, 221, 221);
+        }
+
+        /* .card1 {
+            background-color: #c3cee1; 
+        } */
+
+        #cillianmurphy {
+            display: block;
+            width: 100%;
+            position: relative;
+        }
+
+        .card1 p {
+            color: black;
+            font-family: cursive;
+            text-align: center;
+            font-size: 56px;
+            font-weight: bolder;
+            /* text-shadow: 1px 2px 1px rgb(152, 46, 188); */
+        }
+
+
+
+        .card2 {
+            overflow: hidden scroll;
+            padding: 10px;
+            font-family: Poppins;
+            color: rgb(79, 74, 74);
+        }
+
+        .card2 h2 {
+            color: rgb(91, 86, 86);
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    </style>
+    <style>
+        .card3 {
+            height: 80vh;
+            margin: 20px;
+            background-color: #d8d8e0;
+            border-radius: 30px;
+        }
+
+        .card3 h1 {
+            text-align: center;
+            clear: both;
+            font-family: cursive;
+            text-transform: capitalize;
+            margin: 15px auto;
+        }
+
+        .card3 iframe {
+            width: 70%;
+            height: 80%;
+            display: block;
+            border: 10px solid black;
+            border-style: double;
+            margin: 0 auto;
+            margin-bottom: 5px;
+            margin: 15px auto;
+        }
+    </style>
+    <style>
+        .bottombarlogo {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            border: 3px solid black;
+            border-radius: 50%;
+        }
+
+        .bottombarlogo img {
+            display: block;
+            height: 70px;
+            margin: auto;
+            border-radius: 50%;
+        }
+    </style>
+    <style>
+        .footer {
+            display: flex;
+            margin: 15px;
+            padding: 5px;
+        }
+
+        #footerimg {
+            display: block;
+            height: 50px;
+        }
+
+        #footernote {
+            margin: auto 0;
+            padding: 0 20px;
+            padding-left: 2px;
+            border-right: 2px solid grey;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 28px;
+        }
+
+        #copyright {
+            margin: auto 0;
+            padding: 0 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Design a website according to the design given with a sticky navigation bar & a fixed circular logo in bottom right position -->
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <div class="navlogo">
+                        <img src="sigma.jpg" alt="sigmaWebDev">
+                        <span>SigmaWebDev</span>
+                    </div>
+                </li>
+                <li>Home</li>
+                <li>News</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Careers</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="card card1">
+                <img id="cillianmurphy" src="cillianmurphy.jpg" alt="">
+                <p>The Ultimate Web Development Course by CodeWithHarry</p>
+            </div>
+
+            <div class="card card2">
+                <h2>Is The Course Really Sigma?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, impedit. Nihil animi maxime
+                    accusamus perspiciatis magni officiis ipsam placeat unde accusantium sed, at omnis error hic natus
+                    fugiat voluptate eveniet alias consequuntur vero nulla. Natus enim nihil corrupti deleniti molestiae
+                    consequuntur laudantium excepturi libero, nam laboriosam quos aliquam labore, cumque accusantium ex
+                    repellat magni officiis? Ut mollitia possimus, distinctio in ipsa quia assumenda officiis sit quas
+                    rem corrupti cupiditate omnis eligendi nisi consectetur debitis culpa autem cumque, laborum dolor?
+                    Nisi, fuga tempore. Corporis rerum ut eos reiciendis id qui illum. Vero in odio dignissimos
+                    doloremque officia ea repellat. Non, qui.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut culpa autem, quod vero repellat
+                    nesciunt ipsa aperiam exercitationem voluptas. Praesentium ipsa asperiores unde animi voluptatum
+                    quis distinctio nostrum ut! Deserunt sint nihil culpa in officiis commodi obcaecati fugiat aut
+                    suscipit tempore! Suscipit odit placeat voluptas ab nostrum iure! Odio quibusdam facilis error,
+                    veritatis quidem quo magnam praesentium ipsa. Saepe libero sequi consectetur ea unde? Eos a
+                    mollitia quam dolor corporis cum consequatur laboriosam nisi molestiae. Rerum aspernatur error
+                    iusto sint dolor. Enim eaque perspiciatis, maxime qui quam debitis cupiditate nisi incidunt.
+                    Reiciendis labore quibusdam maiores, vero amet porro ullam illo doloribus voluptate quaerat
+                    eaque eos tenetur est architecto voluptas, id vel consectetur voluptatum exercitationem dolores?
+                    Hic deserunt voluptas numquam ad aliquam dolores incidunt voluptatem sed quae iste dolore, ullam
+                    soluta ipsum qui aliquid possimus quaerat cumque ea libero pariatur esse veritatis at laborum
+                    temporibus! Quam expedita aspernatur adipisci voluptas praesentium.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus mollitia quas suscipit provident
+                    magni incidunt, sunt natus culpa neque assumenda vel in? Nihil, distinctio facere. Modi
+                    tempore nobis architecto. Delectus modi quis tempore possimus repellat, nam iure illum veritatis.
+                    Officia dignissimos molestias vel minima nobis eaque voluptatem vitae, accusantium nemo libero
+                    repudiandae ullam quia eos dolor quasi rem, non quisquam consequatur earum iste quod ipsam adipisci!
+                    Minima cum ducimus facere mollitia iure, blanditiis sed dolore est magnam iste exercitationem
+                    consequatur enim nobis a quia qui fugiat quam. Neque quidem reiciendis dolor mollitia officiis
+                    veniam illo, eum necessitatibus vero eaque. Aliquam expedita atque corporis. Magni rem modi
+                    reprehenderit vitae provident perspiciatis nostrum laboriosam possimus? Accusantium impedit
+                    voluptatibus, ipsam vero sapiente distinctio quisquam vitae maiores, neque, quod ab tempora
+                    asperiores aperiam. Rem quae iure a numquam obcaecati, delectus, blanditiis doloremque nobis harum
+                    optio expedita quibusdam atque cumque repellendus tempore nesciunt itaque consequuntur?</p>
+            </div>
+        </div>
+
+        <div class="card3">
+            <h1>Welcome to this sigma web development express</h1>
+            <iframe width="936" height="526" src="https://www.youtube.com/embed/ojuUnfqnUI0"
+                title="Sigma Web Development Course - Coming Soon 🔥" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="bottombarlogo">
+            <img id="footerimg" src="patrickbatman.jpg" alt="patrickbatman">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <img id="footerimg" src="codewithharry.png" alt="codewithharry">
+            <div id="footernote">CodeWithHarry</div>
+            <div id="copyright">Copyright &copy; 2023 CodeWithHarry.com</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
