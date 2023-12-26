@@ -1,14 +1,14 @@
-function createCard(title, cName, views, monthsOld, duration, thumbnail){
+function createCard(title, cName, views, monthsOld, duration, thumbnail) {
     // Finish this function
     let viewStr
-    if (views<1000){
-        viewStr = views; 
+    if (views < 1000) {
+        viewStr = views;
     }
-    else if(views>1000000){
-        viewStr = views/1000000 + "M"; 
+    else if (views > 1000000) {
+        viewStr = views / 1000000 + "M";
     }
-    else{
-        viewStr = views/1000 + "K"; 
+    else {
+        viewStr = views / 1000 + "K";
     }
     let html = `<div class="card">
     <div class="image">
@@ -22,8 +22,10 @@ function createCard(title, cName, views, monthsOld, duration, thumbnail){
     </div> 
 </div>`
 
-document.querySelector(".container").innerHTML = document.querySelector(".container").innerHTML + html
+    document.querySelector(".container").innerHTML = document.querySelector(".container").innerHTML + html
 }
 
 
 createCard("Introduction to Backend | Sigma Web Dev video #2", "CodeWithHarry", 560000, 7, "31:22", "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw")
+
+function sum 
