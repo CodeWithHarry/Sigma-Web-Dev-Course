@@ -1,31 +1,42 @@
-# Welcome to Sigma's Web Development Course - Hindi Web Development Tutorials! 🚀
+<div align="center">
+  <p>
+    <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w">
+      <img src="https://raw.githubusercontent.com/Modraxis/images/main/Sigma%20Web%20Development%20Course.jpg" width="100%" alt="Sigma Web Development Course" />
+    </a>
+  </p>
 
-## What's Inside:
+# Welcome to Sigma's Web Development Course - Hindi Web Development Tutorials 🚀
 
-If you've been itching to dive into the world of web development but feel lost in a sea of English tutorials, you're in the right place! Our course is exclusively in Hindi and is crafted to guide you from being an absolute beginner to a seasoned pro, one step at a time.
+</div>
 
-## Who Can Benefit?
+## Overview
 
-### This course is a perfect fit for:
+Are you eager to delve into the world of web development but find yourself overwhelmed by English tutorials? You've come to the right place! Our course is exclusively in Hindi and is meticulously crafted to guide you from being an absolute beginner to a seasoned pro, one step at a time.
 
-1. Beginners eager to start their web development journey
-2. Intermediate developers looking to refine their skills
-3. Individuals who prefer learning in Hindi
+## This course is designed for:
 
-## What You'll Master:
+- **Beginners**: Individuals who want to dive into web development.
+- **Intermediate Developers**: Those looking to sharpen their skills.
+- Anyone who prefers learning in Hindi.
 
-### During this course, you'll delve into:
+## What You'll Learn
 
-1. The fundamentals of HTML, CSS, and JavaScript
-2. Both front-end and back-end development
-3. How to seamlessly integrate databases
-4. Real-world project implementation
-5. And a whole lot more!
+Throughout this course, you'll delve into:
 
-## The Schedule:
+- **HTML**, **CSS**, and **JavaScript** Basics.
+- Both **Front-end** and **Back-end** development.
+- **Database** Integration.
+- Implementing **Real-World projects**.
+- And much more!
 
-We're committed to your growth. Expect fresh source code additions nearly every day. Keep up the pace with our schedule and watch your skills soar! 📅
+## Quality Assurance
 
-Get ready to embark on an exciting coding journey! 👨‍💻🌟
+Rest assured, we've poured our hearts into creating high-quality tutorials for you. The best part? It's absolutely FREE and without any sponsors!
 
-Ready to start? [Click here](https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w) to access the complete YouTube playlist.
+## Schedule
+
+We are committed to your growth. New videos will be added almost daily. Expect daily additions of fresh source code. Stay on track with our schedule, and you'll witness your skills soar! 📅
+
+Get ready to embark on an exciting coding journey!
+
+Ready to start? [Access the complete YouTube playlist](https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w).
