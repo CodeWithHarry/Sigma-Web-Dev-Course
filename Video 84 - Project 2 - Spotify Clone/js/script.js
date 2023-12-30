@@ -2,6 +2,7 @@ console.log('Lets write JavaScript');
 let currentSong = new Audio();
 let songs;
 let currFolder;
+let song;
 
 function secondsToMinutesSeconds(seconds) {
     if (isNaN(seconds) || seconds < 0) {
@@ -31,6 +32,7 @@ async function getSongs(folder) {
             songs.push(element.href.split(`/${folder}/`)[1])
         }
     }
+    song=songs;
  
 
 
@@ -163,9 +165,9 @@ async function main() {
     previous.addEventListener("click", () => {
         currentSong.pause()
         console.log("Previous clicked")
-        let index = songs.indexOf(currentSong.src.split("/").slice(-1)[0])
+        let index = song.indexOf(currentSong.src.split("/").slice(-1)[0])
         if ((index - 1) >= 0) {
-            playMusic(songs[index - 1])
+            playMusic(song[index - 1])
         }
     })
 
@@ -174,9 +176,9 @@ async function main() {
         currentSong.pause()
         console.log("Next clicked")
 
-        let index = songs.indexOf(currentSong.src.split("/").slice(-1)[0])
-        if ((index + 1) < songs.length) {
-            playMusic(songs[index + 1])
+        let index = song.indexOf(currentSong.src.split("/").slice(-1)[0])
+        if ((index + 1) < song.length) {
+            playMusic(song[index + 1])
         }
     })
 
