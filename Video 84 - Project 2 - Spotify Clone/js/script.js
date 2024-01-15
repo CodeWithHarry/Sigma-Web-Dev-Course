@@ -205,7 +205,24 @@ async function main() {
     })
 
 
-
+ //add eventlistener to check if currentsong has ended
+    currentsong.addEventListener("ended",function(){
+        if(currentsong.currentTime==currentsong.duration){
+            let current = currentsong.src.split(`/${currfolder}/`)[1];
+            curridx = songs.indexOf(current);
+            /* curridx=songs.findIndex(index);
+            function index(s){
+               return s==current;
+           } */
+            if (curridx == songs.length - 1) {
+                nextidx = 0;
+            }
+            else {
+                nextidx = curridx + 1;
+            }
+            playmusic(songs[nextidx]);
+        }
+    });
 
 
 }
