@@ -209,7 +209,8 @@ async function main() {
     currentsong.addEventListener("ended",function(){
         if(currentsong.currentTime==currentsong.duration){
             let current = currentsong.src.split(`/${currfolder}/`)[1];
-            curridx = songs.indexOf(current);
+            let curridx = songs.indexOf(current);
+            let nextidx;
             /* curridx=songs.findIndex(index);
             function index(s){
                return s==current;
