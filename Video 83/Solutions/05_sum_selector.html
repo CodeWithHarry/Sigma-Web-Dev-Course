@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sum Selector</title>
+</head>
+<body>
+    <script>
+        // The Sum Selector: You are working on a function that should sum all numbers in an array until it encounters a negative number. Write a function that performs this summation.
+
+        function sumUntilNegative(arr) {
+            let sum = 0;
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] < 0) {
+                    break;  // stop the loop if a negative number is encountered
+                }
+                sum += arr[i];
+            }
+            return sum;
+        }
+        console.log(sumUntilNegative([1,4,2,14,4,3,-1,20,1]));
+    </script>
+</body>
+</html>
+
+<!-- Code written by Soyeb. Please follow if you like the solution: https://github.com/sekhsoyebali -->

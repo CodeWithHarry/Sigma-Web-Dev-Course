@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Scroller</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section {
+            font-size: 2.6rem;
+        }
+        #scroll-to-top {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            padding: 24px;
+            font-size: 1.4rem;
+            background-color: rgb(255, 181, 181);
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.409);
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque alias ducimus error dolor quisquam sit doloremque atque odit architecto cum inventore, nulla blanditiis itaque rerum eveniet maiores, ratione aliquam, quas tenetur quod ad non tempore perferendis? Maiores, nobis! Ullam, suscipit assumenda laudantium quibusdam minima animi aspernatur quasi fugit dolorem aperiam maiores, quidem, similique veniam. Necessitatibus ab praesentium, cumque quas corrupti facere tempora nulla reprehenderit aspernatur deleniti est quisquam! Beatae at numquam ad, quas quia nisi laudantium, unde tempore dicta suscipit, aperiam laboriosam perferendis! Eum, nihil quisquam ab non eligendi voluptates itaque voluptatibus? Incidunt delectus iure nisi rerum labore veniam fugiat quibusdam quis adipisci cupiditate vitae voluptates reiciendis corporis perferendis nihil mollitia sit, accusamus aliquid debitis laboriosam doloremque perspiciatis hic. Distinctio quae at soluta voluptates quisquam vitae voluptatem? Ea incidunt natus, illum magnam autem, porro ducimus rem aliquam libero eligendi ad blanditiis magni maiores, voluptatum dolore nostrum sint? Voluptates dolorum sunt molestiae ratione, ad tempora libero neque minus, a ut aspernatur reiciendis dolore, corrupti blanditiis alias doloribus sit earum nisi nesciunt repudiandae. Asperiores vitae debitis eum magni recusandae est esse laboriosam, rerum sunt explicabo veritatis perferendis mollitia qui enim fugiat voluptates dolorum iste labore sequi maiores suscipit totam quae! Quo tenetur dolor aperiam pariatur facere ex, rerum cupiditate, qui suscipit non recusandae, ipsa maiores deleniti aut est et impedit. Magni amet sed reiciendis earum provident ipsum veritatis incidunt, ea praesentium, at ut nam aliquam saepe explicabo magnam molestias maiores! Eaque rem similique eos illum minima quidem mollitia maxime dolorem quo tenetur. Autem eos voluptate adipisci unde, optio enim, maxime omnis impedit vero quos, fuga veniam reprehenderit dolorum sit magni quo porro. Itaque eum aperiam quo eveniet! Optio eaque, reprehenderit molestias voluptates totam corporis eligendi nam facere itaque exercitationem delectus commodi facilis beatae asperiores ducimus vel magni ullam similique! Perferendis aut molestiae maxime nulla vero! Aut alias iure dolore laboriosam fugiat debitis est nesciunt quae quibusdam quaerat corrupti perferendis quidem libero consectetur ipsa hic cupiditate nobis, deserunt nostrum. Necessitatibus repellat ullam doloremque doloribus reiciendis facere debitis? Et possimus cum eveniet rem labore sunt ex eum distinctio nihil suscipit qui dolores, quidem ratione maiores, quis voluptates perspiciatis error magni corporis. Illo temporibus omnis eum architecto consequatur illum, voluptatem blanditiis itaque, quidem et veritatis mollitia odio aliquid eos, saepe repudiandae pariatur molestiae necessitatibus perferendis iusto ipsum tempore debitis laboriosam exercitationem! Enim, tenetur sunt, ut iste culpa inventore id voluptas at eligendi facilis beatae itaque alias nobis natus ipsam modi quis dignissimos optio nesciunt a! Autem fuga id tempore dolor quaerat corporis officia maiores eveniet, possimus rerum soluta suscipit et vitae quibusdam doloremque veritatis earum cum nesciunt ratione dolorum dolorem est. Eos voluptatibus, modi ipsam voluptatem iure illo sit quia eius error quos quam assumenda! Repellendus, dolores itaque earum, fugiat sunt amet illum et repudiandae voluptate assumenda numquam doloremque iusto reiciendis repellat suscipit dicta ipsum soluta, est nostrum quas facilis voluptatem. Fuga architecto laudantium cum quos, quaerat molestiae eius consectetur cumque placeat sapiente modi rem officia consequuntur magni commodi. Minus numquam aspernatur maiores a.
+    </section>
+    <footer>
+        <span id="scroll-to-top">
+            🔼
+        </span>
+    </footer>
+    <script>
+        // The Window Scroller: You are developing a single-page application with a smooth scrolling effect. Implement a function named smoothScrollToTop that smoothly scrolls the window to the top when called.
+
+        const topBtn = document.getElementById('scroll-to-top');
+        function smoothScrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+        topBtn.addEventListener("click", ()=>{
+            smoothScrollToTop();
+        })
+
+    </script>
+</body>
+</html>
+
+<!-- Code written by Soyeb. Please follow if you like the solution: https://github.com/sekhsoyebali -->
