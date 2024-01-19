@@ -1,0 +1,20 @@
+{
+  "name": "video-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "dev": "vite" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "vite": "^5.0.11"
+  }
+}
