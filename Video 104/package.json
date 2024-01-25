@@ -1,0 +1,15 @@
+{
+  "name": "hosting-node.js-apps",
+  "version": "1.0.0",
+  "description": "```\r curl -fsSL https://deb.nodesource.com/setup_21.x | sudo -E bash - &&\\\r sudo apt-get install -y nodejs\r ```\r Now install build essentials\r ```\r sudo apt-get install build-essential\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
