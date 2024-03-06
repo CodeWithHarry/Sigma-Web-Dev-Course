@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Local Storage Manager</title>
+</head>
+<body>
+   
+    <script>
+        // The Local Storage Manager: You are working on a note-taking app, and you want to implement a function named saveNoteToLocalStorage that takes a note object and saves it to the browser's local storage.
+
+        function saveNoteToLocalStorage(noteObj) {
+            // convert the note object to a JSON string with stringify
+            let noteStr = JSON.stringify(noteObj);
+            localStorage.setItem("noteKey", noteStr);
+        }
+        saveNoteToLocalStorage({'id':1,'body':'task 1'});
+        
+        // convert the JSON string to a note object with parse.
+        let getNoteFromLocalStorage = JSON.parse(localStorage.getItem("noteKey")); 
+
+    </script>
+</body>
+
+</html>
+
+<!-- Code written by Soyeb. Please follow if you like the solution: https://github.com/sekhsoyebali -->

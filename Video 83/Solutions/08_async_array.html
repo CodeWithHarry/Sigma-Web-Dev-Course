@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Array Mapping</title>
+</head>
+<body>
+    
+    <script>
+
+        // Async Array Mapping: Write an asynchronous function that takes an array of numbers and returns a new array of Promises where each number is multiplied by 2 after a delay of 500 milliseconds.
+
+        let numbers = [5,1,8,4,1,7,6,3];
+
+        // Method 1: 
+        // const Dealy = () => {
+        //     return new Promise((resolve) => {
+        //     setTimeout(() => {
+        //         resolve();
+        //     }, 500);
+        //     })
+        // }
+        // async function arrMapping() {
+        //     for (const number of numbers) {
+        //         await Dealy();
+        //         console.log(number*2);
+        //     }
+        // }
+        // arrMapping();
+
+
+        // Method 2: 
+        // const arrMapping = (numbers) => {
+        //     return numbers.map((number)=>{
+        //         return new Promise((resolve)=>{
+        //             setTimeout(() => {
+        //                 resolve(number*2)
+        //             }, 500);
+        //         })
+        //     })
+        // }
+
+        // let promises = arrMapping(numbers);
+        // Promise.all(promises).then((getNumber)=>{
+        //     console.log(getNumber);
+        // })
+
+    </script>
+   
+</body>
+</html>
+
+<!-- Code written by Soyeb. Please follow if you like the solution: https://github.com/sekhsoyebali -->

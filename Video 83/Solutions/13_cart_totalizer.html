@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // The Shopping Cart Totalizer: You are working on an e-commerce website, and you need to calculate the total cost of items in the shopping cart. Implement a function named calculateTotal that takes an array of products with prices and quantities and returns the total cost.
+
+        const products = [
+            { id: 1, name: 'iPhone', price: 999, quantity: 5 },
+            { id: 2, name: 'Samsung TV', price: 1499, quantity: 3 },
+            { id: 3, name: 'Leather Jacket', price: 199, quantity: 10 },
+            { id: 4, name: 'Blue Jacket', price: 149, quantity: 7 },
+            { id: 5, name: 'Running Shoes', price: 79, quantity: 15 }
+        ];
+
+        // method 1:
+
+        // const calculateTotal = (products) => {
+        //     let singleTotalCost = products.map((product)=>{
+        //         return (product.price * product.quantity);
+        //     })
+        //     let totalCost = 0;
+        //     for (let i = 0; i < singleTotalCost.length; i++) {
+        //         totalCost += singleTotalCost[i];
+        //     }
+        //     return totalCost;
+        // }
+        // console.log(calculateTotal(products));
+
+
+        // method 2:
+
+        // function calculateTotal(products) {
+        //     let total = 0;
+        //     for (let i = 0; i < products.length; i++) {
+        //         const product = products[i];
+        //         total += product.price * product.quantity;
+        //     }
+        //     return total;
+        // }
+        // let totalCost = calculateTotal(products);
+        // console.log(totalCost);
+        
+
+    </script>
+</body>
+</html>
+
+<!-- Code written by Soyeb. Please follow if you like the solution: https://github.com/sekhsoyebali -->

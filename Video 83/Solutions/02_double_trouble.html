@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Trouble</title>
+</head>
+<body>
+    
+
+    <script>
+        /* The Double Trouble: You are tasked with writing a function that doubles each element in an array. However, there's a catch: if the array contains consecutive duplicate elements, only double one of them. */
+
+        // const numbers = [2,4,5,5,1,5,6,6,4,8,1];
+        // let result = numbers.map((number,i)=>{
+        //     if (numbers[i] !== numbers[i+1]) {
+        //         return number *2;
+        //     } else {
+        //         return number;
+        //     }
+        // })
+        // console.log(result);
+
+
+        /* only double one(random) of them. */
+        
+        /*  .map function doesn't allow us to skip an element in the array during iteration. therefore if use for loop */
+        // const numbers = [2,4,5,5,1,5,6,6,4,8,1];
+        // let result = [];
+        // for (let i = 0; i < numbers.length; i++) {
+        //     if (numbers[i] === numbers[i + 1]) {
+        //         if (Math.random() < 0.5) {
+        //             result.push(numbers[i] * 2);
+        //             result.push(numbers[i]);
+        //         } else {
+        //             result.push(numbers[i]);
+        //             result.push(numbers[i] * 2);
+        //         }
+        //         i++; // skip the next number
+        //     } else {
+        //         result.push(numbers[i] * 2);
+        //     }
+        // }
+        // console.log(result);
+       
+    </script>
+</body>
+</html>
+
+<!-- Code written by Soyeb. Please follow if you like the solution: https://github.com/sekhsoyebali -->
