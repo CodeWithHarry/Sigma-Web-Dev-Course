@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS shadows and outline</title>
     <style>
-        .box{
-            border: 2px solid black;
-            padding:34px;
-            box-shadow:  5px 15px 5px #70a711;
+        .box {
+            border: 2px solid #020202;
+            padding: 45px;
+            box-shadow: 10px 5px 20px 10px #070707f5;
         }
-        .text-element { text-shadow: 10px 5px 3px #e695f7 }
+        .text-element {
+            text-shadow: 0px 11px 3px #8b0ef3;
+            border: 2px solid blue;
+            outline: 2px #8b0ef3;
+            outline-offset: 10px; 
+        }
     </style>
 </head>
 <body>
     <div class="box">
-        I am a box
+        <h1>Emerging Technologies in India - 2024</h1>
     </div>
-
-    <p class="text-element">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, atque. Modi voluptatibus necessitatibus architecto quidem sit maiores, ad nesciunt et odit esse. Possimus, ipsam et molestiae eius quae nisi quisquam maiores fugiat aut fuga!
+    <p class="text-element"> <!-- Corrected class name -->
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, atque quisquam. Neque ex necessitatibus reprehenderit explicabo odit aliquam a, voluptates beatae, doloribus expedita voluptatibus ut iusto pariatur distinctio quo? Corporis, numquam mollitia repudiandae quaerat distinctio laboriosam? Ducimus excepturi iure vel.
     </p>
-    
 </body>
 </html>
