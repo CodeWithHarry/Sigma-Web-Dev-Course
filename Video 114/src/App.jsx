@@ -7,22 +7,16 @@ import { v4 as uuidv4 } from 'uuid';
 function App() { 
 
   const [todo, setTodo] = useState("")
-  const [todos, setTodos] = useState([])
+  const [todos, setTodos] = useState(() => {
+  const savedTodos = localStorage.getItem("todos");
+    return savedTodos ? JSON.parse(savedTodos) : [];
+  });
   const [showFinished, setshowFinished] = useState(true)
 
   useEffect(() => {
-    let todoString = localStorage.getItem("todos")
-    if(todoString){
-      let todos = JSON.parse(localStorage.getItem("todos")) 
-      setTodos(todos)
-    }
-  }, [])
+    localStorage.setItem("todos", JSON.stringify(todos));
+  }, [todos]);
   
-
-  const saveToLS = (params) => {
-    localStorage.setItem("todos", JSON.stringify(todos))
-  }
-
   const toggleFinished = (e) => {
     setshowFinished(!showFinished)
   }
@@ -37,7 +31,7 @@ function App() {
       return item.id!==id
     }); 
     setTodos(newTodos) 
-    saveToLS()
+    
   }
 
   const handleDelete= (e, id)=>{  
@@ -45,13 +39,13 @@ function App() {
       return item.id!==id
     }); 
     setTodos(newTodos) 
-    saveToLS()
+    
   }
 
   const handleAdd= ()=>{
     setTodos([...todos, {id: uuidv4(), todo, isCompleted: false}])
     setTodo("") 
-    saveToLS()
+    
   }
   
   const handleChange= (e)=>{ 
@@ -66,7 +60,7 @@ function App() {
     let newTodos = [...todos];
     newTodos[index].isCompleted = !newTodos[index].isCompleted;
     setTodos(newTodos)
-    saveToLS()
+    
   }
   
 
