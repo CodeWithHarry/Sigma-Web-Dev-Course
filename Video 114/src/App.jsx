@@ -79,7 +79,7 @@ function App() {
           <h2 className='text-2xl font-bold'>Add a Todo</h2>
           <div className="flex">
 
-          <input  onChange={handleChange} value={todo} type="text" className='w-full rounded-full px-5 py-1' />
+          <input onKeyDown={(e) => e.key === "Enter" && handleAdd()} onChange={handleChange} value={todo} type="text" className='w-full rounded-full px-5 py-1' />
           <button onClick={handleAdd} disabled={todo.length<=3} className='bg-violet-800 mx-2 rounded-full hover:bg-violet-950 disabled:bg-violet-500 p-4 py-2 text-sm font-bold text-white'>Save</button>
           </div>
          </div>
