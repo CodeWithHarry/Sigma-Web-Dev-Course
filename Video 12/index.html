@@ -1,16 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Media Player - Solution </title>
+    <style>
+        .red_bg {
+            background-color: #ce4045;
+        }
+
+        .heading {
+            padding: 5px;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            height: 25px;
+            width: 25px;
+            margin: 5px;
+        }
+    </style>
 </head>
+
 <body>
-    <!-- You are given 12 files; 6 audio and 6 video.
-    Design a website using HTML only which shows these 12 files.
-    1.mp3, 2.mp3 .... 6.mp3
-    1.mp4, 2.mp4 .... 6.mp4 -->
-
-
+    <header class="red_bg">
+        <div class="heading">
+            <img class="logo" src="https://www.codewithharry.com/img/logo-blue.png" alt="logo">
+            <h1>Code With Harry-Sigma Web Devlopment Course</h1>
+        </div>
+    </header>
+    <main>
+        <div class="videos_division">
+            <h2>Videos</h2>
+            <h3>Video 1</h3>
+            <video class="video" src="1.mp4" controls></video>
+            <h3>Video 2</h3>
+            <video class="video" src="2.mp4" controls></video>
+            <h3>Video 3</h3>
+            <video class="video" src="3.mp4" controls></video>
+            <h3>Video 4</h3>
+            <video class="video" src="4.mp4" controls></video>
+            <h3>Video 5</h3>
+            <video class="video" src="5.mp4" controls></video>
+            <h3>Video 6</h3>
+            <video class="video" src="6.mp4" controls></video>
+        </div>
+        <div class="audio_division">
+            <h2>Audio</h2>
+            <h3>Audio 1</h3>
+            <audio class="audio" src="1.mp3" controls></audio>
+            <h3>Audio 2</h3>
+            <audio class="audio" src="2.mp3" controls></audio>
+            <h3>Audio 3</h3>
+            <audio class="audio" src="3.mp3" controls></audio>
+            <h3>Audio 4</h3>
+            <audio class="audio" src="4.mp3" controls></audio>
+            <h3>Audio 5</h3>
+            <audio class="audio" src="5.mp3" controls></audio>
+            <h3>Audio 6</h3>
+            <audio class="audio" src="6.mp3" controls></audio>
+        </div>
+    </main>
 </body>
+
 </html>
