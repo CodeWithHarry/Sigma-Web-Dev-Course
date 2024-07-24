@@ -23,7 +23,7 @@ function App() {
   }
 
   //instead of applying SaveToLS everywhere, this constantly checks for changes in "todos".
-  // This ensures that the todo-list is always kept updated
+  // This ensures that the todo-list is always kept updated 
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos))
   }, [todos])
