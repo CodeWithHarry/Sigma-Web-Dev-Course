@@ -7,21 +7,27 @@ import { v4 as uuidv4 } from 'uuid';
 function App() { 
 
   const [todo, setTodo] = useState("")
-  const [todos, setTodos] = useState([])
+  const [todos, setTodos] = useState(GetTodos)
   const [showFinished, setshowFinished] = useState(true)
 
-  useEffect(() => {
+  //This initialises todos and makes sure that useEffect() for todos is not disrupted due to previous method of initialization
+  function GetTodos(){
     let todoString = localStorage.getItem("todos")
     if(todoString){
       let todos = JSON.parse(localStorage.getItem("todos")) 
-      setTodos(todos)
+      return todos;
     }
-  }, [])
-  
-
-  const saveToLS = (params) => {
-    localStorage.setItem("todos", JSON.stringify(todos))
+    else{
+      return [];
+    }
   }
+
+  //instead of applying SaveToLS everywhere, this constantly checks for changes in "todos".
+  // This ensures that the todo-list is always kept updated
+  useEffect(() => {
+    localStorage.setItem("todos", JSON.stringify(todos))
+  }, [todos])
+
 
   const toggleFinished = (e) => {
     setshowFinished(!showFinished)
@@ -37,7 +43,7 @@ function App() {
       return item.id!==id
     }); 
     setTodos(newTodos) 
-    saveToLS()
+    // saveToLS()
   }
 
   const handleDelete= (e, id)=>{  
@@ -45,13 +51,13 @@ function App() {
       return item.id!==id
     }); 
     setTodos(newTodos) 
-    saveToLS()
+    // saveToLS()
   }
 
   const handleAdd= ()=>{
     setTodos([...todos, {id: uuidv4(), todo, isCompleted: false}])
     setTodo("") 
-    saveToLS()
+    // saveToLS()
   }
   
   const handleChange= (e)=>{ 
@@ -66,7 +72,7 @@ function App() {
     let newTodos = [...todos];
     newTodos[index].isCompleted = !newTodos[index].isCompleted;
     setTodos(newTodos)
-    saveToLS()
+    // saveToLS()
   }
   
 
