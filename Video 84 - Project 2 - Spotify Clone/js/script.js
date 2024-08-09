@@ -140,6 +140,11 @@ async function main() {
     currentSong.addEventListener("timeupdate", () => {
         document.querySelector(".songtime").innerHTML = `${secondsToMinutesSeconds(currentSong.currentTime)} / ${secondsToMinutesSeconds(currentSong.duration)}`
         document.querySelector(".circle").style.left = (currentSong.currentTime / currentSong.duration) * 100 + "%";
+
+        //update play svg when song completely played - it changes back to play svg
+        if(currentsong.duration==currentsong.currentTime){
+            play.src = "img/play.svg"
+    }
     })
 
     // Add an event listener to seekbar
