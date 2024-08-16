@@ -1,0 +1,30 @@
+<!-- You are given 12 files; 6 audio and 6 video.
+Design a website using HTML only which shows these 12 files.
+1.mp3, 2.mp3 ... 6.mp3
+1.mp4, 2.mp4 ... 6.mp4 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12 files</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video src="1.mp4" height="400" width="550" controls ></video>
+    <video src="2.mp4" height="400" width="300" controls ></video>
+    <video src="3.mp4" height="250" width="500" controls></video>
+    <video src="4.mp4" height="300" width="300" controls></video>
+    <video src="5.mp4" height="300" width="500" controls></video>
+    <video src="6.mp4" height="300" width="400" controls></video>
+
+    <audio src="1.mp3" controls></audio>
+    <audio src="2.mp3" controls></audio>
+    <audio src="3.mp3" controls></audio>
+    <audio src="4.mp3" controls></audio>
+    <audio src="5.mp3" controls></audio>
+    <audio src="6.mp3" controls></audio>
+    
+</body>
+</html>
