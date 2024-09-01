@@ -1,0 +1,161 @@
+<!-- You are given 12 files; 6 audio and 6 video.
+Design a website using HTML only which shows these 12 files.
+1.mp3, 2.mp3 ... 6.mp3
+1.mp4, 2.mp4 ... 6.mp4 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excersice 1</title>
+
+</head>
+
+<body>
+    <center>
+        <marquee>
+            <h1 style="color: red; background-color: black;">This are some Audio Samples I used For my website</h1>
+        </marquee>
+    </center>
+
+    <div>
+        <h2>Audio 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti iusto eos soluta eius vitae placeat totam
+            aperiam sint! Odio accusantium provident expedita voluptatibus non facilis labore fugit quia corporis minus.
+            Sequi architecto odit perferendis et dolore fuga sit, perspiciatis tempore, delectus nobis praesentium,
+            sapiente
+            commodi!</p>
+        <audio src="Audio 1.mp3" controls muted></audio>
+
+    </div>
+
+    <div>
+        <h2>Audio 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum optio rerum recusandae, voluptas esse facilis
+            consectetur laudantium itaque porro expedita temporibus perferendis magni nisi obcaecati est quo eaque illum
+            dolorum ratione fugit beatae accusamus sed atque eveniet. Ab, commodi? Delectus ullam totam omnis, eaque
+            amet mollitia sit, adipisci fugit dolorum, perferendis saepe explicabo similique soluta quasi.</p>
+        <audio src="Audio 2.mp3" controls muted></audio>
+
+    </div>
+
+    <div>
+        <h2>Audio 3</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos tenetur iure iusto vel nemo ipsa aliquid.
+            Laudantium alias perspiciatis atque saepe ipsam unde libero sapiente incidunt maxime ad, eveniet perferendis
+            aut odit cumque corporis nemo?</p>
+        <audio src="Audio 3.mp3" controls muted></audio>
+
+    </div>
+
+    <div>
+        <h2>Audio 4</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis aut maxime iste itaque ea unde minus veniam
+            dolorum id harum dignissimos obcaecati incidunt accusamus, assumenda atque dolorem ipsa illum at tenetur
+            expedita beatae illo odio vel? Consequuntur nihil qui eum sequi temporibus facilis aperiam corporis quam
+            vero saepe? Ab, suscipit? Nam, aspernatur sed dolor quia ea ducimus praesentium ab at laboriosam voluptas
+            aliquid ad deleniti.</p>
+        <audio src="Audio 4.mp3" controls muted></audio>
+
+    </div>
+
+    <div>
+        <h2>Audio 5</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloremque nemo, magni repellat pariatur
+            omnis accusamus et sed vel atque nam est delectus reprehenderit quos quo amet in error laboriosam expedita
+            animi a saepe. Magnam aspernatur nobis error suscipit, laudantium hic, quibusdam enim eveniet eius quis,
+            quidem voluptate fuga ipsum? Id accusantium fugiat sequi sapiente? Quos eius nisi pariatur ut.</p>
+        <audio src="Audio 5.mp3" controls muted></audio>
+
+    </div>
+
+    <div>
+        <h2>Audio 6</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur impedit aliquid quis, nostrum
+            necessitatibus id distinctio debitis officia iusto itaque consequatur eum officiis incidunt. Aliquid unde
+            nemo voluptatibus, in dolor laborum sit odit eos commodi accusantium cumque dolore magnam exercitationem,
+            impedit labore nam mollitia veritatis dolorem! Modi iusto aperiam consequatur possimus, nihil, facere
+            corporis ducimus quos illo pariatur explicabo vel officia sequi. Soluta necessitatibus cum nam dolor nemo
+            nisi voluptates eveniet reiciendis. Doloremque voluptas quasi doloribus. Nihil ipsum, dolorum iure maiores
+            quas error autem ab? Quidem voluptatibus alias sint harum.</p>
+        <audio src="Audio 6.mp3" controls muted></audio>
+
+    </div>
+
+
+    <center>
+        <marquee>
+            <h1 style="color: red; background-color: black;">This are some Video Samples I used For my website</h1>
+        </marquee>
+    </center>
+
+    <div>
+        <h2>Video 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veritatis, facere id deleniti minima rerum
+            ipsam cum placeat odit voluptate temporibus vel est molestiae quos quo maxime cupiditate eum voluptatum.
+            Asperiores repellat quae sunt ratione quis autem iure corrupti consectetur magnam libero, perspiciatis fuga
+            quod. Itaque, perferendis! Ex laborum sequi dolorum tempore labore illum fugiat, eum earum corporis debitis
+            aut itaque magni eius. Tempora totam suscipit exercitationem impedit odio, voluptatum maiores numquam ea ex
+            sequi debitis dolores quaerat cumque ad consequatur! Porro amet accusamus eius, omnis a maiores!</p>
+        <video src="Video 1.mp4" height="255" controls muted autoplay></video>
+
+    </div>
+
+    <div>
+        <h2>Video 2</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus doloribus earum maiores assumenda
+            fugiat provident dolorum perferendis veritatis rerum alias unde eos quas magnam officia nostrum blanditiis
+            pariatur maxime, a consequuntur! Earum, cum, quas eos debitis quidem dolore qui, nisi sapiente accusamus at
+            soluta ipsam adipisci cumque totam recusandae rem sunt! Laborum facilis est saepe iste totam blanditiis esse
+            amet laudantium ex dolorum, corporis fugiat dicta.</p>
+        <video src="Video 2.mp4" height="255" controls muted autoplay></video>
+
+    </div>
+
+    <div>
+        <h2>Video 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptate maxime placeat quisquam recusandae
+            consectetur, voluptates, corrupti a, dolor tempora quam vero dolores debitis cum velit? Ipsa suscipit porro
+            doloribus laboriosam, voluptatem quibusdam incidunt voluptate nemo sit qui repellat explicabo iste dicta,
+            esse aut.</p>
+        <video src="Video 3.mp4" height="255" controls muted autoplay></video>
+
+    </div>
+
+    <div>
+        <h2>Video 4</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat inventore fuga quis velit? Sint quasi
+            deserunt quo labore consequuntur, alias, ipsam libero sequi, cupiditate doloremque facere rem! Fugit
+            eligendi id assumenda hic?</p>
+        <video src="Video 4.mp4" height="555" muted autoplay></video>
+
+    </div>
+
+    <div>
+        <h2>Video 5</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sint omnis quis aspernatur saepe consequatur
+            fugiat, impedit reprehenderit ullam facere. Repellat expedita alias necessitatibus excepturi obcaecati, eius
+            iure consequuntur, ea, velit harum earum quod tenetur dolore a voluptates repellendus neque facilis qui
+            repudiandae? Earum tenetur voluptate eius delectus ad sint. Omnis atque facere veniam expedita. Quia, aut
+            nisi. Vitae amet dolorum quibusdam voluptate recusandae ullam, suscipit accusantium aliquid reprehenderit
+            officia. Quo corporis quidem placeat excepturi tenetur?</p>
+        <video src="Video 5.mp4" height="555" controls muted autoplay></video>
+
+    </div>
+
+    <div>
+        <h2>Video 6</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia alias tempora fugit eligendi ipsam at sint
+            praesentium consectetur autem laudantium ea nihil cupiditate sit harum veniam pariatur repellendus facere
+            beatae magni voluptas laboriosam porro, omnis ut esse. Quam dicta corporis praesentium rerum nobis esse
+            distinctio? Suscipit quibusdam fugit sunt dolorem? Fugiat totam quod velit.</p>
+        <video src="Video 6.mp4" height="555" controls muted autoplay></video>
+
+    </div>
+
+
+</body>
+
+</html>
