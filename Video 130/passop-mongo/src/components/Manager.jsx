@@ -54,7 +54,9 @@ const Manager = () => {
         if (form.site.length > 3 && form.username.length > 3 && form.password.length > 3) {
 
             // If any such id exists in the db, delete it 
-            await fetch("http://localhost:3000/", { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id: form.id }) })
+            if(form.id){ //if this statement is not there then it will delete one entry anyways, have to resist it that way
+                await fetch("http://localhost:3000/", { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id: form.id }) })
+            }
 
             setPasswordArray([...passwordArray, { ...form, id: uuidv4() }])
             await fetch("http://localhost:3000/", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...form, id: uuidv4() }) })
