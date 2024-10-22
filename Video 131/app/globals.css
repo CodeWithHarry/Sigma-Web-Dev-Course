@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.invertImg{
+    filter: invert(0.23)
+}
