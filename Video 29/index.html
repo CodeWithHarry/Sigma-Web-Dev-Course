@@ -1,11 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
+
 <body>
+
     <!-- card.png is a file which contains a card Image. Write html and css code to design this card. Use #html -->
+    <style>
+        .box {
+            background-color: #ffffff;
+            height: 500px;
+            width: 300px;
+            border-radius: 37px;
+            border-color: black;
+            border: 2px Solid;
+            stroke: black;
+            stroke-width: 2px;
+            position: relative;
+            top: 120px;
+            left: 120px;
+        }
+
+        h3 {
+            color: rgb(6, 5, 5);
+            padding-top: 1px;
+            padding-left: 15px;
+        }
+
+        h1 {
+            color: rgb(12, 12, 12);
+            padding-left: 25px;
+            padding-top: 0px;
+            font-weight: 700;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .read {
+            font-family: 'Arial Narrow Bold', sans-serif;
+            align-self: center;
+            padding-left: 55px;
+            padding-top: 0px;
+            color: rgb(237, 237, 237);
+            border-radius: 15px;
+            padding: 8px;
+            background-color: hsla(240, 25%, 3%, 0.842);
+            font-weight: 500;
+            border: 3px solid;
+            border-color: rgb(9, 9, 9);
+            padding-bottom: 6px;
+        }
+
+        ul li {
+            list-style-type: none;
+            margin: 8px;
+            border: 1px solid;
+            border-color: black;
+            border-radius: 8px;
+            padding: 5px;
+            background-color: rgba(209, 206, 206, 0.26);
+
+        }
+
+        ul {
+            display: flex;
+
+        }
+
+        img {
+            height: 200px;
+            width: 278px;
+            padding: 12px;
+            border-radius: 31px;
+            align-self: center;
+            stroke-width: 1px;
+        }
+
+        button {
+
+            align-items: center;
+            position: relative;
+            top: 0px;
+            left: 105px;
+
+        }
+    </style>
+
+    <div class="box">
+        <img src="Card.png.png" alt="">
+
+        <div class="head">
+            <h1>Niagra Falls</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>Nature</li>
+                <li>Waterfalls</li>
+            </ul>
+        </div>
+
+        <div class="text">
+            <h3>At the current rate of erosion, scientists believe that Niagara Falls will end in about 50,000
+                years.....</h3>
+        </div>
+        <button class="read">Read More</button>
+    </div>
 </body>
+
 </html>
