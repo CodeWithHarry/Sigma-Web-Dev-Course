@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "2f5d249a-7600-45b0-91e4-972d09030847",
+		"name": "BitLinks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24335059",
+		"_collection_link": "https://martian-station-78370.postman.co/workspace/Sigma-Web-Development-Express~5db32297-9967-4e1b-afb8-3d38caf12a97/collection/24335059-2f5d249a-7600-45b0-91e4-972d09030847?action=share&source=collection_link&creator=24335059"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/generate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"url\": \"https://facebook.com/codewithharry\",\r\n    \"shorturl\": \"google2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		}
+	]
+}
