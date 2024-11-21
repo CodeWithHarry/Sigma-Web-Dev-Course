@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Array Filterer</title>
+</head>
+<body>
+    <script>
+        // The Array Filterer: You are building a search feature for your e-commerce site. Write a function named filterProducts that takes an array of product objects and a filter criterion. The function should return a new array containing only the products that match the filter criterion.
+
+        const products = [
+            { id: 1, name: 'iPhone', category: 'Electronics' },
+            { id: 2, name: 'Samsung TV', category: 'Electronics' },
+            { id: 3, name: 'Leather Jacket', category: 'Clothing' },
+            { id: 4, name: 'Blue Jacket', category: 'Clothing' },
+            { id: 5, name: 'Running Shoes', category: 'Footwear' }
+        ];
+
+        let filterProducts = (products, userInput) => {
+            return products.filter(product => product.name.toLowerCase().includes(userInput.toLowerCase()));
+        };
+
+        let result = filterProducts(products, "JAckEt");
+        if(result.length == 0){
+            console.log('No Match Found');
+        } else {
+            console.log(result);
+        }
+        
+
+    </script>
+</body>
+</html>
+
+<!-- Code written by Soyeb. Please follow if you like the solution: https://github.com/sekhsoyebali -->
