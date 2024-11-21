@@ -1,0 +1,6 @@
+The provided HTML code creates a simple web page with a video player:
+
+1)The <meta charset="UTF-8"> specifies the character encoding.
+2)<meta name="viewport" content="width=device-width, initial-scale=1.0"> sets up responsive design.
+3)The <title> element defines the page's title.
+4)Inside the <body>, the <video> element embeds a video ("video4.mp4") with playback controls.
