@@ -1,11 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Code With Harry Card</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            background-color: #EAEFF1;
+            font-family: "Raleway", sans-serif;
+        }
+
+        .card {
+            
+            width: 500px;
+            height: 700px;
+            background-color: white;
+            margin: auto;
+            margin-top: 111px;
+            /* margin: 111px; */
+            border: 1px solid #b0b3b4;
+            border-radius: 10px;
+            
+        }
+        .upper{
+            height: 50%;
+            width: 100%;
+        }
+        .lower{
+            height: 50%;
+            /* display: flex; */
+
+        }
+        .card-img{
+            border-radius: 12px;
+            height: 314px;
+            margin: 4px;
+            width: 490px;
+            /* height: 350px; */
+            object-fit: cover;
+            /* border-radius: 10px; */
+            border: 1px  black;
+        }
+        .lable {
+            color: #72767c;
+            border: 1px solid #b0b3b4;
+            height: 20px;
+            margin-top: 30px;
+            margin-left: 10px;
+            padding: 4px;
+
+            
+            border-radius: 10px;
+
+        }
+
+        .name{
+            font-weight:bolder;
+            font-size:3rem;
+            margin: 10px;
+        }
+
+        p{
+            margin: 10px;
+            line-height: 50px;
+        }
+        
+        button{
+            margin: 0 auto;
+            display: block;
+            cursor: pointer;
+            border: none;
+            background-color: #e0efff;
+            padding: 12px 24px;
+            border-radius: 50px;
+            color: #5da8ff;
+            font-weight: 600;
+        }
+
+    </style>
 </head>
+
 <body>
-    <!-- card.png is a file which contains a card Image. Write html and css code to design this card. Use #html -->
+    <div class="card">
+        <div class="upper">
+            <img class="card-img" src="https://images.unsplash.com/photo-1536323760109-ca8c07450053" alt="">
+        </div>
+        <div class="lower">
+            
+            <span class="lable">Nature</span>
+            <span class="lable">Lake</span>
+            
+            <div class="name">Lago di Braies</div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam
+          pharetra
+          vitae ipsum odio.</p>
+
+        <button>Read more</button>
+        </div>
+        
+    </div>
 </body>
+
 </html>
