@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      font-family: sans-serif;
+      color: white;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #000000;
+    }
+    #filter{
+      padding: 0.5rem 0.9rem 0.5rem 0.5rem;
+      cursor: pointer;
+      background-color: #55fcffc7;
+      border: none;
+      border-radius: 0.2rem;
+    }
+    #filter:focus{
+      outline: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Product List</h2>
+    <label for="filter">Filter Categories: </label>
+    <select name="filter" id="filter">
+      <option value="all">All</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Footwear">Footwear</option>
+      <option value="Accessories">Accessories</option>
+      <option value="Wearable Tech">Wearable Tech</option>
+    </select>
+    <table id="productTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Category</th>
+          <th>Price ($)</th>
+          <th>Stock</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Products will be inserted here -->
+      </tbody>
+    </table>
+  </div>
+  <script>
+    let products = [
+      {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "category": "Electronics",
+        "price": 25.99,
+        "stock": 120,
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "name": "Mechanical Keyboard",
+        "category": "Electronics",
+        "price": 79.99,
+        "stock": 75,
+        "rating": 4.7
+      },
+      {
+        "id": 3,
+        "name": "Running Shoes",
+        "category": "Footwear",
+        "price": 59.99,
+        "stock": 200,
+        "rating": 4.3
+      },
+      {
+        "id": 4,
+        "name": "Smart Watch",
+        "category": "Wearable Tech",
+        "price": 149.99,
+        "stock": 50,
+        "rating": 4.6
+      },
+      {
+        "id": 5,
+        "name": "Backpack",
+        "category": "Accessories",
+        "price": 39.99,
+        "stock": 180,
+        "rating": 4.2
+      }
+    ]
+
+    function displayProducts(products) {
+      let tableBody = document.querySelector("#productTable tbody");
+      tableBody.innerHTML = ""; // Clear previous content
+
+      products.forEach(product => {
+        let row = `
+          <tr>
+            <td>${product.id}</td>
+            <td>${product.name}</td>
+            <td>${product.category}</td>
+            <td>${product.price.toFixed(2)}</td>
+            <td>${product.stock}</td>
+            <td>${product.rating} ⭐</td>
+          </tr>
+        `;
+        tableBody.innerHTML += row;
+      });
+    }
+
+    displayProducts(products);
+
+    let val = document.getElementById("filter");
+    val.addEventListener("change", (e) => {
+      let filterC = e.target.value;
+      if (filterC === "all") {
+        displayProducts(products);
+      }
+      else {
+        let newProducts = products.filter(Element => Element.category === filterC);
+        displayProducts(newProducts);
+      }
+    })
+  </script>
+</body>
+
+</html>

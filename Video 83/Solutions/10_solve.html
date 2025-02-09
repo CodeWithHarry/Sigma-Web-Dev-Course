@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <button class="Espresso">Brew Espresso</button>
+  <script>
+    let coffeeDelay = {
+      "Espresso": 1732,
+      "Latte": 892,
+      "Cappuccino": 2054,
+      "Americano": 1500,
+      "Mocha": 627,
+      "Macchiato": 2345,
+      "Flat White": 1045
+    }
+    async function brewCoffee(coffee) {
+      return await new Promise(resolve => {
+        delay = coffeeDelay[coffee];
+        document.querySelector(`.${coffee}`).innerHTML = "Brewing...";
+        setTimeout(() => {
+          resolve(coffee + " brewed");
+        }, delay);
+      })
+    }
+    document.querySelector(".Espresso").addEventListener("click", () => {
+      brewCoffee("Espresso").then(resolve => document.querySelector(".Espresso").innerHTML = resolve);
+    })
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="order">
+    <div class="item"></div>
+    <div class="price"></div>
+  </div>
+  <button class="btn">Place Order</button>
+  <script>
+    let order = {
+      item: "ToothBrush",
+      cost: '10rs'
+    };
+    async function placeOrder(order, delay) {
+      return await new Promise(resolve => {
+        setTimeout(() => {
+          localStorage.setItem('Order', JSON.stringify(order));
+          resolve("Order Placed");
+        }, delay * 1000);
+      })
+    }
+    document.querySelector(".btn").addEventListener("click", () => {
+      let delay = Math.random() * 6 + 1;
+      placeOrder(order, delay).then(confirmation => {
+        document.querySelector(".btn").innerHTML = confirmation;
+        let data = JSON.parse(localStorage.getItem("Order"));
+        document.querySelector(".item").innerHTML = data.item;
+        document.querySelector(".price").innerHTML = data.cost;
+      });
+    })
+  </script>
+</body>
+
+</html>

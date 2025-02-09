@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let numbers = [1, 23, 12, 33, 213, 46, 34];
+    const multiply = async (numbers) => {
+      return await Promise.all(numbers.map(num =>
+        new Promise(resolve => setTimeout(() => {
+          resolve(num * 2)
+        }, 500))
+      ))
+    }
+
+    multiply(numbers).then(result => console.log(result))
+    // alternate
+    // (async () => {
+    //     const result = await asyncDoubleArray([1, 2, 3, 4, 5]);
+    //     console.log(result); // Output: [2, 4, 6, 8, 10] after 500ms
+    //   })();
+  </script>
+</body>
+
+</html>

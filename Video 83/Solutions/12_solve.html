@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <button class="login">Login</button>
+  <script>
+
+    async function authentication(user) {
+      return new Promise(resolve => {
+        document.querySelector(".login").innerHTML = "Logged In";
+        setTimeout(() => {
+          if (localStorage.getItem('user')) {
+            localStorage.removeItem('user');
+          }
+          resolve("Token expired");
+        }, 5000);
+      })
+    }
+
+    document.querySelector(".login").addEventListener("click", () => {
+      let name = prompt("Enter your username");
+      let pwd = prompt("Enter your password");
+      let user = { name: name, pass: pwd };
+      localStorage.setItem('user', JSON.stringify(user));
+      authentication(user).then(resolve => {
+        document.querySelector(".login").innerHTML = "Login";
+        alert(resolve);
+      })
+    })
+  </script>
+</body>
+
+</html>

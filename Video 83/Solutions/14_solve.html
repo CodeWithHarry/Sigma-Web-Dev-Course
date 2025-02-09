@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: aquamarine;
+      height: 10000px;
+    }
+
+    button {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      padding: 2rem;
+      border: none;
+      border-radius: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <button class="btn">Go to top</button>
+  <script>
+    function gotoTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    document.querySelector(".btn").addEventListener("click", () => gotoTop());
+  </script>
+</body>
+
+</html>

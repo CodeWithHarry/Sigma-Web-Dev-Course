@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let products = [
+      {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "category": "Electronics",
+        "price": 25.99,
+        "stock": 120,
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "name": "Mechanical Keyboard",
+        "category": "Electronics",
+        "price": 79.99,
+        "stock": 75,
+        "rating": 4.7
+      },
+      {
+        "id": 3,
+        "name": "Running Shoes",
+        "category": "Footwear",
+        "price": 59.99,
+        "stock": 200,
+        "rating": 4.3
+      },
+      {
+        "id": 4,
+        "name": "Smart Watch",
+        "category": "Wearable Tech",
+        "price": 149.99,
+        "stock": 50,
+        "rating": 4.6
+      },
+      {
+        "id": 5,
+        "name": "Backpack",
+        "category": "Accessories",
+        "price": 39.99,
+        "stock": 180,
+        "rating": 4.2
+      }
+    ]
+
+    function calculateTotal(products) {
+      let initial = 0;
+      return products.reduce((acc, val) => val.price * val.stock + acc, initial);
+    }
+
+    console.log(parseFloat(calculateTotal(products).toFixed(2)));
+  </script>
+</body>
+
+</html>
