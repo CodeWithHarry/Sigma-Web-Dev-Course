@@ -321,6 +321,19 @@ body {
     width: 100%;
 }
 
+/* CSS for the input search */
+#search {
+  border: none;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: var(--bg-color);
+  color: white;
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+
 @media (max-width: 1200px) {
     .left {
         position: absolute;
