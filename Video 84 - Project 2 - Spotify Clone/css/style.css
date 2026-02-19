@@ -268,6 +268,24 @@ body {
     cursor: pointer;
 }
 
+
+.progress {
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  background: #0b44ff;   /* filled color */
+  border-radius: 3px;
+}
+
+
+.seekbar:hover .progress{
+    background-color: #E0209B;
+}
+
+.seekbar:hover .circle{
+    display: block;
+}
+
 .circle {
     width: 13px;
     height: 13px;
@@ -277,6 +295,7 @@ body {
     bottom: 5px;
     left: 0%;
     transition: left 0.5s;
+    display: none;
 }
 
 .songbuttons img {

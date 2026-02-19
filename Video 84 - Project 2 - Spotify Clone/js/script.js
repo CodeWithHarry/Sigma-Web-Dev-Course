@@ -149,6 +149,25 @@ async function main() {
         currentSong.currentTime = ((currentSong.duration) * percent) / 100
     })
 
+    let seekbar = document.querySelector(".seekbar");
+let progress = document.querySelector(".progress");
+
+
+// event listener for the progress of current songs 
+seekbar.addEventListener("click", (e) => {
+  let percent = (e.offsetX / seekbar.getBoundingClientRect().width) * 100;
+  progress.style.width = percent + "%";
+
+  currentSong.currentTime = (currentsong.duration) * percent / 100;
+});
+
+// auto update while playing
+currentSong.addEventListener("timeupdate", () => {
+  let percent = (currentSong.currentTime / currentSong.duration) * 100;
+  progress.style.width = percent + "%";
+});
+
+
     // Add an event listener for hamburger
     document.querySelector(".hamburger").addEventListener("click", () => {
         document.querySelector(".left").style.left = "0"
