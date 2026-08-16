@@ -16,7 +16,7 @@ function App() {
       let todos = JSON.parse(localStorage.getItem("todos")) 
       setTodos(todos)
     }
-  }, [])
+  }, [todos])
   
 
   const saveToLS = (params) => {
